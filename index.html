@@ -10,31 +10,48 @@
         .center {
             text-align: center;
         }
+        
+        body {
+            background-color: white;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: whitesmoke;
+            }
+        }
+        
+        video {
+            width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 
 <body class="center">
-    <h1>กล้อง 1</h1>
-    <video width="688" height="660" autoplay>
-        <source src="https://drive.google.com/uc?export=download&id=1u5f1RQV8cJQOkD4ACKhU-smpxxwkzWqi" type="video/mp4">
-    </video>
-    <h1>กล้อง 2</h1>
-    <video width="688" height="660" autoplay>
+    <div>
+
+        <h1>กล้อง 1</h1>
+        <video autoplay loop muted playsinline> 
+            <source src="https://drive.google.com/uc?export=download&id=1u5f1RQV8cJQOkD4ACKhU-smpxxwkzWqi" type="video/mp4">
+        </video>
+        <h1>กล้อง 2</h1>
+        <video autoplay loop muted playsinline>
             <source src="https://drive.google.com/uc?export=download&id=1VmGuaoknzWfR_X6yKenGzUWrjXXijNL2" type="video/mp4">
         </video>
-    <h1>กล้อง 3</h1>
-    <video width="688" height="660" autoplay>
+        <h1>กล้อง 3</h1>
+        <video autoplay loop muted playsinline>
             <source src="https://drive.google.com/uc?export=download&id=1LqfPtlaS5R0W7vg3iyzjdef9aHkH8reN" type="video/mp4">
         </video>
-    <h1>กล้อง 4</h1>
-    <video width="688" height="660" autoplay>
-        <source src="https://drive.google.com/uc?export=download&id=1noLpjRJiEubOuFSVQUZaSDOcJF6Qr_9T" type="video/mp4">
-    </video>
-    <h1>กล้อง 5</h1>
-    <video width="688" height="660" autoplay>
-        <source src="https://drive.google.com/uc?export=download&id=12kWcY3ucrsjoo6rmmQeMZIhTt2zRv2qD" type="video/mp4">
-    </video>
-
+        <h1>กล้อง 4</h1>
+        <video autoplay loop muted playsinline>
+            <source src="https://drive.google.com/uc?export=download&id=1noLpjRJiEubOuFSVQUZaSDOcJF6Qr_9T" type="video/mp4">
+        </video>
+        <h1>กล้อง 5</h1>
+        <video autoplay loop muted playsinline>
+            <source src="https://drive.google.com/uc?export=download&id=12kWcY3ucrsjoo6rmmQeMZIhTt2zRv2qD" type="video/mp4">
+        </video>
+    </div>
 
 </body>
 
